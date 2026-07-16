@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Team Scheduler Dashboard</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/members.css">
+    <link rel="stylesheet" href="css/availability.css">
+    <link rel="stylesheet" href="css/meetings.css">
+    <link rel="stylesheet" href="css/participants.css">
+    <link rel="stylesheet" href="css/scheduler.css">
+    <link rel="stylesheet" href="css/scheduled.css">
+    <link rel="stylesheet" href="css/status.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- ===========================
+             SIDEBAR
+        ============================ -->
+
+        <aside class="sidebar">
+
+            <h2>
+                <i class="fa-solid fa-calendar-days"></i>
+                Team Scheduler
+            </h2>
+
+            <ul>
+
+                <li id="membersBtn">
+                    <i class="fa-solid fa-users"></i>
+                    Members
+                </li>
+
+                <li id="availabilityBtn">
+                    <i class="fa-solid fa-clock"></i>
+                    Availability
+                </li>
+
+                <li id="meetingsBtn">
+                    <i class="fa-solid fa-calendar-plus"></i>
+                    Meeting Requests
+                </li>
+
+                <li id="participantsBtn">
+                    <i class="fa-solid fa-user-group"></i>
+                    Participants
+                </li>
+
+                <li id="schedulerBtn">
+                    <i class="fa-solid fa-robot"></i>
+                    Auto Scheduler
+                </li>
+
+                <li id="scheduledBtn">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    Scheduled Meetings
+                </li>
+
+                <li id="statusBtn">
+                    <i class="fa-solid fa-list-check"></i>
+                    Meeting Status
+                </li>
+
+
+            </ul>
+
+        </aside>
+
+        <!-- ===========================
+             MAIN CONTENT
+        ============================ -->
+
+        <main class="main-content">
+
+            <!-- Header -->
+
+            <div class="header">
+
+                <div>
+
+                    <h1>Team Scheduler Dashboard</h1>
+
+                    <p>
+
+                        Welcome to the Team Call Scheduling System
+
+                    </p>
+
+                </div>
+
+                <button 
+                    id="newMeetingBtn"
+                    class="btn btn-primary">
+
+                    <i class="fa-solid fa-plus"></i>
+
+                    New Meeting
+
+                </button>
+
+            </div>
+
+            <!-- Dashboard Cards -->
+
+            <div class="cards">
+
+                <div class="dashboard-card" id="dashboardMembers">
+
+                    <i class="fa-solid fa-users"></i>
+
+                    <h3>Members</h3>
+
+                    <h2 id="memberCount">0</h2>
+
+                    <p>Total Team Members</p>
+
+                </div>
+
+                <div class="dashboard-card" id="dashboardAvailability">
+
+                    <i class="fa-solid fa-clock"></i>
+
+                    <h3>Meeting Requests</h3>
+
+                    <h2 id="meetingCount">0</h2>
+
+                    <p>Total Meeting Requests</p>
+
+                </div>
+
+                <div class="dashboard-card" id="dashboardMeetings">
+
+                    <i class="fa-solid fa-calendar-check"></i>
+
+                    <h3>Scheduled</h3>
+
+                    <h2 id="scheduledCount">0</h2>
+
+                    <p>Scheduled Meetings</p>
+
+                </div>
+
+                <div class="dashboard-card" id="dashboardScheduler">
+
+                    <i class="fa-solid fa-robot"></i>
+
+                    <h3>Pending</h3>
+
+                    <h2 id="pendingCount">0</h2>
+
+                    <p>Meetings Waiting</p>
+
+                </div>
+
+            </div>
+
+            <!-- Dynamic Page Content -->
+
+            <div id="pageContent">
+
+                <!--
+                    Members Page
+                    Availability Page
+                    Meetings Page
+                    Participants Page
+                    Auto Scheduler Page
+                    Scheduled Meetings Page
+                    Meeting Status Page
+
+                    All pages are loaded dynamically here.
+                -->
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript -->
+
+    <script src="js/app.js"></script>
+    <script src="js/members.js"></script>
+    <script src="js/availability.js"></script>
+    <script src="js/meetings.js"></script>
+    <script src="js/participants.js"></script>
+    <script src="js/scheduler.js"></script>
+    <script src="js/scheduled.js"></script>
+    <script src="js/status.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+/* ==========================================================
+   SCHEDULED MEETINGS PAGE
+========================================================== */
+
+.scheduled-page {
+
+    padding: 20px;
+
+}
+
+
+/* ==========================================================
+   PAGE HEADER
+========================================================== */
+
+.scheduled-page .page-header {
+
+    margin-bottom: 20px;
+
+}
+
+.scheduled-page .page-header h2 {
+
+    font-weight: 600;
+
+}
+
+.scheduled-page .page-header p {
+
+    color: #6c757d;
+
+    margin-bottom: 0;
+
+}
+
+
+/* ==========================================================
+   CARDS
+========================================================== */
+
+.scheduled-page .card {
+
+    border: none;
+
+    border-radius: 12px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+
+}
+
+
+/* ==========================================================
+   SEARCH / SORT CONTROLS
+========================================================== */
+
+.scheduled-page .form-control {
+
+    height: 45px;
+
+    border-radius: 8px;
+
+}
+
+.scheduled-page .form-select {
+
+    height: 45px;
+
+    border-radius: 8px;
+
+}
+
+.scheduled-page .btn {
+
+    height: 45px;
+
+    border-radius: 8px;
+
+}
+
+
+/* ==========================================================
+   TABLE
+========================================================== */
+
+.scheduled-page table {
+
+    margin-bottom: 0;
+
+}
+
+.scheduled-page th {
+
+    vertical-align: middle;
+
+    white-space: nowrap;
+
+    font-weight: 600;
+
+}
+
+.scheduled-page td {
+
+    vertical-align: middle;
+
+}
+
+
+/* ==========================================================
+   STATUS BADGES
+========================================================== */
+
+.scheduled-page .badge {
+
+    font-size: 0.9rem;
+
+    padding: 8px 12px;
+
+    border-radius: 8px;
+
+}
+
+
+/* ==========================================================
+   DELETE BUTTON
+========================================================== */
+
+/* ==========================================================
+   DELETE BUTTON
+========================================================== */
+
+.scheduled-page .delete-btn {
+
+    min-width: 80px;
+
+    height: 30px;
+
+    border-radius: 8px;
+
+    font-weight: 400;
+
+}
+
+
+/* ==========================================================
+   PAGINATION
+========================================================== */
+
+#scheduledPagination {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 20px;
+
+}
+
+#scheduledPagination .pagination {
+
+    margin-bottom: 0;
+
+}
+
+
+/* ==========================================================
+   EMPTY STATE
+========================================================== */
+
+.scheduled-page .alert {
+
+    margin-bottom: 0;
+
+    border-radius: 10px;
+
+}
+
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media (max-width: 768px) {
+
+    .scheduled-page .form-control,
+
+    .scheduled-page .form-select,
+
+    .scheduled-page .btn {
+
+        margin-bottom: 10px;
+
+        width: 100%;
+
+    }
+
+    .scheduled-page table {
+
+        font-size: 0.9rem;
+
+    }
+
+}

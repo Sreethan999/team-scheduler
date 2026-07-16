@@ -1,0 +1,67 @@
+.members-page{
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.subtitle{
+
+color:gray;
+
+margin-bottom:25px;
+
+}
+
+.member-form{
+
+margin-bottom:25px;
+
+}
+
+.member-form h3{
+
+margin-bottom:15px;
+
+}
+
+.toolbar{
+
+display:flex;
+
+justify-content:space-between;
+
+gap:20px;
+
+margin:25px 0;
+
+}
+
+.toolbar input{
+
+flex:2;
+
+}
+
+.toolbar select{
+
+width:200px;
+
+}
+
+.table{
+
+margin-top:20px;
+
+}
+
+.pagination{
+
+margin-top:30px;
+
+}

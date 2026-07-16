@@ -1,0 +1,11 @@
+.scheduler-page{
+
+    animation: fadeIn .25s ease-in-out;
+
+}
+
+#scheduleResult{
+
+    margin-top:20px;
+
+}

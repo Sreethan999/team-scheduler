@@ -1,0 +1,43 @@
+.status-page {
+
+    padding: 20px;
+
+}
+
+.status-page .page-header {
+
+    margin-bottom: 20px;
+
+}
+
+.status-page .card {
+
+    border-radius: 12px;
+
+}
+
+.status-page table {
+
+    margin-bottom: 0;
+
+}
+
+.status-page .badge {
+
+    font-size: 0.9rem;
+
+    padding: 8px 12px;
+
+}
+
+.status-page select {
+
+    min-width: 160px;
+
+}
+
+.status-page button {
+
+    min-width: 90px;
+
+}
